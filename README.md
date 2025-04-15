@@ -1,7 +1,7 @@
 
-Provides a trivial tool which holds state - a counter.
+Provides a trivial tool for ollama-rs which holds state - a counter.
 
-This needs a local ollama serves to be running and the model "llama3.2:1b" to be loaded (`ollama pull llama3.2:1b`).
+This needs a local ollama serves to be running and the model "llama3.2:1b" to be loaded (`ollama pull llama3.2:1b`). This is a small (1gb) model which can be run on a local machine with modest specs.
 
 Example output:
 
