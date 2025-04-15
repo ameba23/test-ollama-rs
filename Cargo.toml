@@ -1,5 +1,5 @@
 [package]
-name = "try-ai-pack"
+name = "test-ollama-rs"
 version = "0.1.0"
 edition = "2024"
 

@@ -2227,6 +2227,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "test-ollama-rs"
+version = "0.1.0"
+dependencies = [
+ "ollama-rs",
+ "reqwest",
+ "schemars",
+ "serde",
+ "tokio",
+]
+
+[[package]]
 name = "text-splitter"
 version = "0.25.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2415,17 +2426,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e672c95779cf947c5311f83787af4fa8fffd12fb27e4993211a84bdfd9610f9c"
 dependencies = [
  "once_cell",
-]
-
-[[package]]
-name = "try-ai-pack"
-version = "0.1.0"
-dependencies = [
- "ollama-rs",
- "reqwest",
- "schemars",
- "serde",
- "tokio",
 ]
 
 [[package]]
